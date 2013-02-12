@@ -1,6 +1,6 @@
 pkgbase = google-chrome
 	pkgdesc = An attempt at creating a safer, faster, and more stable browser (Stable Channel)
-	pkgver = 24.0.1312.69
+	pkgver = 24.0.1312.70
 	pkgrel = 1
 	url = http://www.google.com/chrome
 	install = google-chrome.install
@@ -18,9 +18,9 @@ pkgbase = google-chrome
 	depends = ttf-dejavu
 	depends = xdg-utils
 	optdepends = kdebase-kdialog: needed for file dialogs in KDE
-	provides = google-chrome=24.0.1312.69
+	provides = google-chrome=24.0.1312.70
 	conflicts = google-chrome
-	source = http://dl.google.com/linux/chrome/rpm/stable//google-chrome-stable-24.0.1312.69-180721..rpm
+	source = http://dl.google.com/linux/chrome/rpm/stable//google-chrome-stable-24.0.1312.70-181759..rpm
 
 pkgname = google-chrome
 
