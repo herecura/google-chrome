@@ -1,7 +1,7 @@
 pkgbase = google-chrome
 	pkgdesc = An attempt at creating a safer, faster, and more stable browser (Stable Channel)
 	pkgver = 28.0.1500.52
-	pkgrel = 1
+	pkgrel = 2
 	url = https://www.google.com/chrome
 	install = google-chrome.install
 	arch = i686
