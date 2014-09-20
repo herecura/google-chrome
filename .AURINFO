@@ -28,12 +28,9 @@ pkgbase = google-chrome
 	optdepends = kdebase-kdialog: needed for file dialogs in KDE
 	optdepends = ttf-google-fonts-git
 	provides = google-chrome=37.0.2062.120
+	source = google-chrome-stable_37.0.2062.120_amd64.deb::https://dl.google.com/linux/direct/google-chrome-stable_current_amd64.deb
 	options = !emptydirs
 	options = !strip
-	source = google-chrome-stable_37.0.2062.120_amd64.deb::https://dl.google.com/linux/direct/google-chrome-stable_current_amd64.deb
-	source = eula_text.html
-	md5sums = ad13b2cd986933a57cf348dc0efc50cf
-	md5sums = b7e752f549b215ac77f284b6486794b6
 
 pkgname = google-chrome
 
