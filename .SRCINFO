@@ -1,7 +1,7 @@
 pkgbase = google-chrome
 	pkgdesc = An attempt at creating a safer, faster, and more stable browser (Stable Channel)
 	pkgver = 38.0.2125.104
-	pkgrel = 1
+	pkgrel = 2
 	url = https://www.google.com/chrome
 	install = google-chrome.install
 	arch = i686
@@ -32,12 +32,12 @@ pkgbase = google-chrome
 	noextract = google-chrome-stable_38.0.2125.104_amd64.deb
 	options = !emptydirs
 	options = !strip
-	source = google-chrome-stable_38.0.2125.104_i386.deb::https://dl.google.com/linux/direct/google-chrome-stable_current_i386.deb
-	source = google-chrome-stable_38.0.2125.104_amd64.deb::https://dl.google.com/linux/direct/google-chrome-stable_current_amd64.deb
-	source = eula_text.html
+	source = google-chrome-stable_38.0.2125.104_i386.deb::http://dl.google.com/linux/chrome/deb/pool/main/g/google-chrome-stable/google-chrome-stable_38.0.2125.104-1_i386.deb
+	source = google-chrome-stable_38.0.2125.104_amd64.deb::http://dl.google.com/linux/chrome/deb/pool/main/g/google-chrome-stable/google-chrome-stable_38.0.2125.104-1_amd64.deb
+	source = http://www.google.com/chrome/intl/en/eula_text.html
 	sha256sums = be6cbc3ea91f1c47e88d5a54a4e2126492453072a60e322f28ae5d475634a45c
 	sha256sums = a85e89a781405fcf4925a2691dd953fabae400c0600397c7c808933368aacb83
-	sha256sums = af48d6467196286e5450f52fd4fd819f9f5c631b322eeac3e23944403d06fcff
+	sha256sums = 4242ecd421c56d47e56f6384be5621fe4e7b772c11036a72145d0e580a0f464c
 
 pkgname = google-chrome
 
