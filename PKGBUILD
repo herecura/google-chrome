@@ -6,7 +6,7 @@
 
 pkgname=google-chrome
 pkgver=43.0.2357.130
-pkgrel=1
+pkgrel=2
 pkgdesc="An attempt at creating a safer, faster, and more stable browser (Stable Channel)"
 arch=('i686' 'x86_64')
 url="https://www.google.com/chrome"
