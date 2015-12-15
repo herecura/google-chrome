@@ -1,6 +1,6 @@
 pkgbase = google-chrome
 	pkgdesc = An attempt at creating a safer, faster, and more stable browser (Stable Channel)
-	pkgver = 47.0.2526.80
+	pkgver = 47.0.2526.106
 	pkgrel = 1
 	url = https://www.google.com/chrome
 	install = google-chrome.install
@@ -27,16 +27,16 @@ pkgbase = google-chrome
 	depends = xdg-utils
 	optdepends = kdebase-kdialog: needed for file dialogs in KDE
 	optdepends = ttf-google-fonts-git
-	provides = google-chrome=47.0.2526.80
-	noextract = google-chrome-stable_47.0.2526.80_i386.deb
-	noextract = google-chrome-stable_47.0.2526.80_amd64.deb
+	provides = google-chrome=47.0.2526.106
+	noextract = google-chrome-stable_47.0.2526.106_i386.deb
+	noextract = google-chrome-stable_47.0.2526.106_amd64.deb
 	options = !emptydirs
 	options = !strip
-	source = google-chrome-stable_47.0.2526.80_i386.deb::http://dl.google.com/linux/chrome/deb/pool/main/g/google-chrome-stable/google-chrome-stable_47.0.2526.80-1_i386.deb
-	source = google-chrome-stable_47.0.2526.80_amd64.deb::http://dl.google.com/linux/chrome/deb/pool/main/g/google-chrome-stable/google-chrome-stable_47.0.2526.80-1_amd64.deb
+	source = google-chrome-stable_47.0.2526.106_i386.deb::http://dl.google.com/linux/chrome/deb/pool/main/g/google-chrome-stable/google-chrome-stable_47.0.2526.106-1_i386.deb
+	source = google-chrome-stable_47.0.2526.106_amd64.deb::http://dl.google.com/linux/chrome/deb/pool/main/g/google-chrome-stable/google-chrome-stable_47.0.2526.106-1_amd64.deb
 	source = http://www.google.com/chrome/intl/en/eula_text.html
-	sha256sums = 6619ea29836214ab27dd838f8924901bf15a497dc97d57a0c58371abcbf8e91c
-	sha256sums = bb39a1827b1aab49b2b88263a7a4c511c41ce450d97027037559e9d60d884976
+	sha256sums = 168de6fe1f98ab00f73e8a370796b57a8977130ebde7e85ef4de7d8a7a695b93
+	sha256sums = a9d9307f90a0d5a1129df8b6478837876275298c545c28c60a697cc577422288
 	sha256sums = 4242ecd421c56d47e56f6384be5621fe4e7b772c11036a72145d0e580a0f464c
 
 pkgname = google-chrome
