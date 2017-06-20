@@ -6,16 +6,18 @@
 
 pkgname=google-chrome
 pkgver=59.0.3071.104
-pkgrel=1
+pkgrel=2
 pkgdesc="An attempt at creating a safer, faster, and more stable browser (Stable Channel)"
 arch=('x86_64')
 url="https://www.google.com/chrome"
 license=('custom:chrome')
-depends=('alsa-lib' 'desktop-file-utils' 'flac' 'gconf' 'gtk2' 'harfbuzz' 'harfbuzz-icu' 'hicolor-icon-theme'
-         'icu' 'libpng' 'libxss' 'libxtst' 'nss' 'opus' 'snappy' 'speech-dispatcher' 'ttf-font' 'xdg-utils'
-         'shared-mime-info')
-optdepends=('kdebase-kdialog: needed for file dialogs in KDE'
-            'ttf-google-fonts-git')
+depends=('alsa-lib' 'gconf' 'gtk3' 'libcups' 'libxss' 'libxtst' 'nss')
+optdepends=('kdialog: needed for file dialogs in KDE'
+            'gnome-keyring: for storing passwords in GNOME keyring'
+            'kwallet: for storing passwords in KWallet'
+            'libunity: download progress on KDE'
+            'ttf-liberation: fix fonts for some PDFs (CRBug #369991)'
+            'xdg-utils')
 provides=("google-chrome=$pkgver")
 options=('!emptydirs' '!strip')
 _channel=stable
