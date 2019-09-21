@@ -5,7 +5,7 @@
 # or use: $ curl -s https://dl.google.com/linux/chrome/rpm/stable/x86_64/repodata/other.xml.gz | gzip -df | awk -F\" '/pkgid/{ sub(".*-","",$4); print $4": "$10 }'
 
 pkgname=google-chrome
-pkgver=76.0.3809.132
+pkgver=77.0.3865.90
 pkgrel=1
 pkgdesc="An attempt at creating a safer, faster, and more stable browser (Stable Channel)"
 arch=('x86_64')
@@ -26,14 +26,14 @@ source=(
 	"google-chrome-${_channel}_${pkgver}_amd64.deb::http://dl.google.com/linux/chrome/deb/pool/main/g/google-chrome-${_channel}/google-chrome-${_channel}_${pkgver}-1_amd64.deb"
 	'http://www.google.com/chrome/intl/en/eula_text.html'
 )
-sha256sums=('73f64cf3e8886c1d3ad4b1f53018a30a08e234868f18153f5b1fe01191a2ba41'
+sha256sums=('f443503c88164f018ddb88247d2824431efcb863935ae476f4ada6218f41fdda'
             'e93c01576427cad9099f2cf0df0be70d0a2cc0a3a66c743318b2138aa7c4ed93')
 
 package() {
     bsdtar -xf data.tar.xz -C "$pkgdir/"
 
     # Icons
-    for i in 16x16 22x22 24x24 32x32 48x48 64x64 128x128 256x256; do
+    for i in 16x16 24x24 32x32 48x48 64x64 128x128 256x256; do
         install -Dm644 "$pkgdir"/opt/google/chrome/product_logo_${i/x*}.png \
             "$pkgdir"/usr/share/icons/hicolor/$i/apps/google-chrome.png
     done
