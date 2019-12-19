@@ -6,12 +6,12 @@
 
 pkgname=google-chrome
 pkgver=79.0.3945.88
-pkgrel=1
+pkgrel=2
 pkgdesc="An attempt at creating a safer, faster, and more stable browser (Stable Channel)"
 arch=('x86_64')
 url="https://www.google.com/chrome"
 license=('custom:chrome')
-depends=('alsa-lib' 'gconf' 'gtk3' 'libcups' 'libxss' 'libxtst' 'nss')
+depends=('alsa-lib' 'gtk3' 'libcups' 'libxss' 'libxtst' 'nss')
 optdepends=('kdialog: for file dialogs in KDE'
             'gnome-keyring: for storing passwords in GNOME keyring'
             'kwallet: for storing passwords in KWallet'
